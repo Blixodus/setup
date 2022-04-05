@@ -84,6 +84,9 @@
 
 ;; Generally useful stuff for working on projects
 
+;(load "/usr/share/emacs/site-lisp/clang-format/clang-format.el")
+;(global-set-key (kbd "C-M-i") 'clang-format-buffer)
+
 (use-package magit
   :ensure t)
 
